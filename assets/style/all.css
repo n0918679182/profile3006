@@ -1,23 +1,145 @@
-.header {
-  height: 200px;
-  background-color: #00cc99; }
+body {
+  font-family: 'Noto Sans TC', sans-serif; }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500; }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .box:hover {
-    width: 200px;
-    background-color: #00cc99; }
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.name {
+  border-bottom: 2px solid #000;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  margin-bottom: 40px; }
+
+.image {
+  margin-bottom: 48px; }
+
+.title {
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px; }
+  .title h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500; }
+    .title h2 span {
+      margin-left: 16px;
+      text-transform: uppercase;
+      color: #A00404;
+      font-size: 24px;
+      line-height: 36px;
+      vertical-align: 12%; }
+
+.profile {
+  margin-bottom: 64px; }
+  .profile ul li {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300; }
+
+.edu {
+  margin-bottom: 64px; }
+  .edu ul li {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-bottom: 16px; }
+
+.skill {
+  background: #415165;
+  padding-bottom: 40px;
+  margin-bottom: 64px; }
+  .skill .title {
+    border-color: #fff;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    margin-bottom: 40px; }
+    .skill .title h2 {
+      color: #fff; }
+      .skill .title h2 span {
+        color: #fff; }
+  .skill ul {
+    width: 225px;
+    margin: 0 auto;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px; }
+    .skill ul li {
+      font-size: 24px;
+      line-height: 36px;
+      color: #fff;
+      margin-bottom: 8px;
+      font-weight: 100; }
+
+.exp ul {
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+  margin-bottom: 80px; }
+  .exp ul li {
+    margin-bottom: 24px; }
+    .exp ul li h3 {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 500; }
+    .exp ul li .school {
+      width: 100px;
+      height: 100px;
+      text-align: center; }
+      .exp ul li .school img {
+        padding-top: 16px;
+        padding-bottom: 16px; }
+    .exp ul li .tree {
+      width: 100px;
+      height: 100px;
+      text-align: center; }
+      .exp ul li .tree img {
+        padding-top: 13.5px;
+        margin-bottom: 13.5px; }
+    .exp ul li p {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 100;
+      width: 642px; }
+
+.foot {
+  background: #415165;
+  padding-bottom: 40px; }
+  .foot .title {
+    border-color: #fff;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    margin-bottom: 24px; }
+    .foot .title h2 {
+      color: #fff; }
+      .foot .title h2 span {
+        color: #fff; }
+  .foot ul li {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px; }
+    .foot ul li a {
+      text-decoration: none;
+      color: #fff; }
+      .foot ul li a:hover {
+        text-decoration: underline; }
+    .foot ul li:last-child a {
+      margin: 0 12px; }
+      .foot ul li:last-child a img {
+        vertical-align: middle; }
+      .foot ul li:last-child a:hover img {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1); }
 
 /*# sourceMappingURL=all.css.map */
