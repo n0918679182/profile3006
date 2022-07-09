@@ -6,19 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
-  </footer>
+  <!-- .foot>.container>(.title>h2{聯絡方式}>span{contact method})+ul>(li>a[href="mailto:xxxd@hexschool.com"]{mail：xxxd@hexschool.com})+(li>a[href="tel:+886-910123456"]{Phone：0910123456})+li{Kaohsiung, Taiwan}+(li{作品連結：}>a[href="#"]{https://www.behance.net/xxxdddddd})+li>(a[href="#"]>img)*3 -->
+
+  <div class="foot">
+    <div class="container">
+        <div class="title">
+            <h2>聯絡方式<span>contact method</span></h2>
+        </div>
+        <ul>
+            <li>
+                <a href="mailto:xxxd@hexschool.com">mail：xxxd@hexschool.com</a>
+            </li>
+            <li>
+                <a href="tel:+886-910123456">Phone：0910123456</a>
+            </li>
+            <li>Kaohsiung, Taiwan</li>
+            <li>
+                作品連結：<a href="#">https://www.behance.net/xxxdddddd</a>
+            </li>
+            <li>
+                <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/instagram-alt.svg" alt="instegram"></a>
+                <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/week1/line.svg" alt="line"></a>
+            </li>
+        </ul>
+    </div>
+</div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
